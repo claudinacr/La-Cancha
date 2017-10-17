@@ -1,0 +1,75 @@
+.cancha {
+    width: 73em;
+    height: 35em;
+    background-color: #8CB27C;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.borde_cancha {
+    top: -33.8em;
+    left: 6.5em;
+    width: 70em;
+    height: 32em;
+    position: relative;
+    border: 0.3em #ffffff solid;
+    z-index: 2;
+}
+
+.rectangulo1{
+    top: -57.5em;
+    left: 6.5em;
+    width: 8em;
+    height: 14em;
+    position: relative;
+    border: 0.3em #ffffff solid;
+    z-index: 3;
+}
+
+.rectangulo2{
+    top: -72em;
+    left: 68.5em;
+    width: 8em;
+    height: 14em;
+    position: relative;
+    border: 0.3em #ffffff solid;
+    z-index: 4;
+}
+
+.circulo{
+    top: -86em;
+    left: 35em;
+    width: 200px;
+     height: 200px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+
+     border: 0.3em #ffffff solid;
+     position: relative;
+     
+     z-index: 5;
+
+}
+
+.pelota1{
+    top: -99em;
+    left: 13.5em;
+    position: relative;
+    z-index: 6;
+}
+
+.pelota2{
+    top: -107em;
+    left: 40.7em;
+    position: relative;
+    z-index: 7;
+}
+
+.pelota3{
+    top: -93em;
+    left: 66em;
+    position: relative;
+    z-index: 8;
+}
