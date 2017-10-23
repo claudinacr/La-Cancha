@@ -1,75 +1,75 @@
 .cancha {
-    width: 73em;
-    height: 35em;
+    max-width: 1000px;
+    height: 500px;
     background-color: #8CB27C;
+    margin: 0 auto;
+    padding: 20px;
     position: relative;
-    margin: auto;
-    z-index: 1;
 }
 
 .borde_cancha {
-    top: -33.8em;
-    left: 6.5em;
-    width: 70em;
-    height: 32em;
-    position: relative;
-    border: 0.3em #ffffff solid;
-    z-index: 2;
+    content: "";
+    border: 4px white solid;
+    width: 996px;
+    height: 496px;
+    position: absolute;
 }
 
-.rectangulo1{
-    top: -57.5em;
-    left: 6.5em;
-    width: 8em;
-    height: 14em;
-    position: relative;
-    border: 0.3em #ffffff solid;
-    z-index: 3;
+.rectangulo1 {
+    position: absolute;
+    content: "";
+    border-top: 4px white solid;
+    border-bottom: 4px white solid;
+    border-right: 4px white solid;
+    width: 110px;
+    height: 200px;
+    top: 140px; 
+
 }
 
-.rectangulo2{
-    top: -72em;
-    left: 68.5em;
-    width: 8em;
-    height: 14em;
-    position: relative;
-    border: 0.3em #ffffff solid;
-    z-index: 4;
+.rectangulo2 {
+    position: absolute;
+    content: "";
+    border-top: 4px white solid;
+    border-bottom: 4px white solid;
+    border-left: 4px white solid;
+    width: 110px;
+    height: 200px;
+    top: 140px; 
+    right: 0px;
+  
 }
 
-.circulo{
-    top: -86em;
-    left: 35em;
+.circulo {
+    position: absolute;
+    content: "";
+    border: 4px white solid;
     width: 200px;
-     height: 200px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-
-     border: 0.3em #ffffff solid;
-     position: relative;
-     
-     z-index: 5;
-
+    height: 200px;
+    border-radius: 50% 50%;
+    top: 140px;
+    left: 390px;
+    
+  
 }
 
-.pelota1{
-    top: -99em;
-    left: 13.5em;
-    position: relative;
-    z-index: 6;
+.pelota1 {
+    position: absolute;
+    top :160px;
+    left: 95px;
+    
 }
 
-.pelota2{
-    top: -107em;
-    left: 40.7em;
-    position: relative;
-    z-index: 7;
+.pelota2 {
+    position: absolute;
+    top :40px;
+    left: 500px;
+   
 }
 
-.pelota3{
-    top: -93em;
-    left: 66em;
-    position: relative;
-    z-index: 8;
+.pelota3 {
+    position: absolute;
+    bottom :200px;
+    right: 120px;
+   
 }
